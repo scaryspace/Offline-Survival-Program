@@ -38,7 +38,7 @@ Partial Class Form1
         Me.ListBox_Items.Location = New System.Drawing.Point(8, 8)
         Me.ListBox_Items.Margin = New System.Windows.Forms.Padding(2)
         Me.ListBox_Items.Name = "ListBox_Items"
-        Me.ListBox_Items.Size = New System.Drawing.Size(116, 277)
+        Me.ListBox_Items.Size = New System.Drawing.Size(116, 251)
         Me.ListBox_Items.TabIndex = 0
         '
         'Title
@@ -53,7 +53,7 @@ Partial Class Form1
         '
         'TextBox_Description
         '
-        Me.TextBox_Description.Location = New System.Drawing.Point(146, 83)
+        Me.TextBox_Description.Location = New System.Drawing.Point(146, 98)
         Me.TextBox_Description.Name = "TextBox_Description"
         Me.TextBox_Description.ReadOnly = True
         Me.TextBox_Description.Size = New System.Drawing.Size(337, 20)
@@ -61,7 +61,7 @@ Partial Class Form1
         '
         'Button_About
         '
-        Me.Button_About.Location = New System.Drawing.Point(446, 257)
+        Me.Button_About.Location = New System.Drawing.Point(8, 262)
         Me.Button_About.Name = "Button_About"
         Me.Button_About.Size = New System.Drawing.Size(75, 23)
         Me.Button_About.TabIndex = 4
@@ -78,9 +78,9 @@ Partial Class Form1
         '
         'Button_Launch
         '
-        Me.Button_Launch.Location = New System.Drawing.Point(130, 257)
+        Me.Button_Launch.Location = New System.Drawing.Point(441, 250)
         Me.Button_Launch.Name = "Button_Launch"
-        Me.Button_Launch.Size = New System.Drawing.Size(75, 23)
+        Me.Button_Launch.Size = New System.Drawing.Size(80, 30)
         Me.Button_Launch.TabIndex = 5
         Me.Button_Launch.Text = "Launch"
         Me.Button_Launch.UseVisualStyleBackColor = True
