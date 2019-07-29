@@ -22,4 +22,8 @@ Public Class Form1
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button_About.Click
         MsgBox("This program was created to help people in areas where there is no internet. It contains potentially life-saving resources.", MsgBoxStyle.OkOnly, "About")
     End Sub
+
+    Private Sub Button_Launch_Click(sender As Object, e As EventArgs) Handles Button_Launch.Click
+        Process.Start("F:\WIP\data\dictionary\WordWeb\wwnotray.exe")
+    End Sub
 End Class

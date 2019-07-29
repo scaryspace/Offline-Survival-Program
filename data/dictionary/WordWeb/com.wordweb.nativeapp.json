@@ -1,0 +1,1 @@
+{  "name": "com.wordweb.nativeapp",  "description": "WordWeb Chrome Messaging host",  "path": "WordWebChromeExtension.exe",  "type": "stdio",  "allowed_origins": [    "chrome-extension://ilikenhndcpmliapkmmhoimckaokmihm/",    "chrome-extension://ppklcfadodjpopngldgfcgedkhhbjgae/",    "chrome-extension://okkbbfibdeacjcbolmoeinekhhbeielb/"  ]}

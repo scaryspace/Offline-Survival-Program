@@ -1,0 +1,1 @@
+{  "name": "com.wordweb.run",  "description": "WordWeb Chrome button",  "path": "WordWebChromeRun.exe",  "type": "stdio",  "allowed_origins": [    "chrome-extension://ilikenhndcpmliapkmmhoimckaokmihm/",    "chrome-extension://ppklcfadodjpopngldgfcgedkhhbjgae/",    "chrome-extension://okkbbfibdeacjcbolmoeinekhhbeielb/"  ]}
