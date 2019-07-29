@@ -10,9 +10,9 @@ Public Class Form1
             PictureBox.Image = WIP.My.Resources.icons8_dictionary_64
         End If
 
-        If Selection = "Encyclopedia" Then
-            TextBox_Description.Text = "Gives information on many topics."
-            PictureBox.Image = WIP.My.Resources.Webp_net_resizeimage
+        If Selection = "Atlas" Then
+            TextBox_Description.Text = "A map of the Earth."
+            PictureBox.Image = WIP.My.Resources.icons8_globe_earth_64
         End If
 
 
@@ -24,6 +24,14 @@ Public Class Form1
     End Sub
 
     Private Sub Button_Launch_Click(sender As Object, e As EventArgs) Handles Button_Launch.Click
-        Process.Start("F:\WIP\data\dictionary\WordWeb\wwnotray.exe")
+        Dim Selection As String = ListBox_Items.SelectedItem
+
+        If Selection = "Dictionary" Then
+            Process.Start("F:\WIP\data\dictionary\WordWeb\wwnotray.exe")
+        End If
+
+        If Selection = "Atlas" Then
+            Process.Start("F:\WIP\data\atlas\MarblePortable.exe")
+        End If
     End Sub
 End Class

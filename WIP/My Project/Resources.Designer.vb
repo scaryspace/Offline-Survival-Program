@@ -73,9 +73,9 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
-        Friend ReadOnly Property Webp_net_resizeimage() As System.Drawing.Bitmap
+        Friend ReadOnly Property icons8_globe_earth_64() As System.Drawing.Bitmap
             Get
-                Dim obj As Object = ResourceManager.GetObject("Webp_net_resizeimage", resourceCulture)
+                Dim obj As Object = ResourceManager.GetObject("icons8_globe_earth_64", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
