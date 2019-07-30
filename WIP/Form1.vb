@@ -20,6 +20,11 @@ Public Class Form1
             PictureBox.Image = WIP.My.Resources.icons8_regular_document_64
         End If
 
+        If Selection = "Microsoft Maths" Then
+            TextBox_Description.Text = "A scientific calculator for doing advanced maths."
+            PictureBox.Image = WIP.My.Resources.icons8_math_50
+        End If
+
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button_About.Click
@@ -40,5 +45,10 @@ Public Class Form1
         If Selection = "Office" Then
             Process.Start("F:\WIP\data\OpenOfficePortable\OpenOfficePortable.exe")
         End If
+
+        If Selection = "Microsoft Maths" Then
+            Process.Start("F:\WIP\data\Microsoft Maths\MathApp.exe")
+        End If
+
     End Sub
 End Class

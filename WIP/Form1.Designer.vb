@@ -34,7 +34,7 @@ Partial Class Form1
         'ListBox_Items
         '
         Me.ListBox_Items.FormattingEnabled = True
-        Me.ListBox_Items.Items.AddRange(New Object() {"Dictionary", "Atlas", "Office"})
+        Me.ListBox_Items.Items.AddRange(New Object() {"Dictionary", "Atlas", "Office", "Microsoft Maths"})
         Me.ListBox_Items.Location = New System.Drawing.Point(8, 8)
         Me.ListBox_Items.Margin = New System.Windows.Forms.Padding(2)
         Me.ListBox_Items.Name = "ListBox_Items"
@@ -70,7 +70,7 @@ Partial Class Form1
         '
         'PictureBox
         '
-        Me.PictureBox.Location = New System.Drawing.Point(423, 13)
+        Me.PictureBox.Location = New System.Drawing.Point(432, 12)
         Me.PictureBox.Name = "PictureBox"
         Me.PictureBox.Size = New System.Drawing.Size(98, 64)
         Me.PictureBox.TabIndex = 3
