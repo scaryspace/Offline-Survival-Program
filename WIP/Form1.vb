@@ -15,7 +15,10 @@ Public Class Form1
             PictureBox.Image = WIP.My.Resources.icons8_globe_earth_64
         End If
 
-
+        If Selection = "Office" Then
+            TextBox_Description.Text = "You can create and edit text files."
+            PictureBox.Image = WIP.My.Resources.icons8_regular_document_64
+        End If
 
     End Sub
 
@@ -32,6 +35,10 @@ Public Class Form1
 
         If Selection = "Atlas" Then
             Process.Start("F:\WIP\data\atlas\MarblePortable.exe")
+        End If
+
+        If Selection = "Office" Then
+            Process.Start("F:\WIP\data\OpenOfficePortable\OpenOfficePortable.exe")
         End If
     End Sub
 End Class

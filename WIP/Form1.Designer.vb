@@ -34,7 +34,7 @@ Partial Class Form1
         'ListBox_Items
         '
         Me.ListBox_Items.FormattingEnabled = True
-        Me.ListBox_Items.Items.AddRange(New Object() {"Dictionary", "Atlas"})
+        Me.ListBox_Items.Items.AddRange(New Object() {"Dictionary", "Atlas", "Office"})
         Me.ListBox_Items.Location = New System.Drawing.Point(8, 8)
         Me.ListBox_Items.Margin = New System.Windows.Forms.Padding(2)
         Me.ListBox_Items.Name = "ListBox_Items"

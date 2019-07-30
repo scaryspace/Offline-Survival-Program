@@ -135,5 +135,8 @@
   <ItemGroup>
     <None Include="Resources\icons8-globe-earth-64.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-regular-document-64.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
